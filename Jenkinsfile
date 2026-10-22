@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout Information') {
             steps {
                 echo 'Jenkins is connected to GitHub'
-                echo 'Building the main branch'
+                echo 'Building the feature/login-demo branch'
                 sh 'git --version'
                 sh 'pwd'
             }
