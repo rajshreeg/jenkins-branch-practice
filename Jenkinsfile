@@ -17,7 +17,13 @@ pipeline {
                 echo 'Build stage completed'
             }
         }
+         stage('Developer Change') {
+            steps {
+                echo 'A developer pushed a change to develop'
+             }
+        }
     }
+       
 
     post {
         success {
